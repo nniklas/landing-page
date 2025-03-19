@@ -1,7 +1,10 @@
+/* General styling */
+
 body {
     display: flex;
-
+    flex-direction: column;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
 }
 
 ul {
@@ -9,7 +12,6 @@ ul {
     padding: 0px;
     margin: 0px;
 }
-
 
 a {
     text-decoration: none;
@@ -28,30 +30,33 @@ p{
     color: #e5e7eb;
 }
 
-.columnflex {
-    flex-direction: column;
-}
+/* Global styles for flex elements */
 .container {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    padding: 10px 50px 10px 50px;
 }
 
+/* Navigation bar */
 .nav {
     background-color: #1F2937;
-    padding: 10px;
 }
 
 .navlist {
-    justify-content: space-between;
-    align-items: center;   
-    flex:0 1 1000px;
-}
-
-.right-side-elements {
+    align-items: center;
+    justify-content: space-between;   
+    display: flex;
     gap: 15px;
 }
 
+.logo {
+    display: flex;
+}
+
+.moveright {
+    margin-right: auto;
+}
+
+/* Section below navigation bar */
 .main-text {
     color: #f9faf8;
     font-size: 24px;
@@ -59,7 +64,6 @@ p{
 
 .section-one {
     background-color: #1F2937;
-    padding: 20px;
 }
 .description {
     justify-content: flex-start;
@@ -70,8 +74,7 @@ p{
     justify-content: space-between;
     align-items: center;  
     flex-direction: row; 
-    flex:0 1 1000px;
 }
 
-
+/* random information */
 
