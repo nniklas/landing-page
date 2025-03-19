@@ -23,11 +23,19 @@ h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 p{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Global styles for flex elements */
@@ -60,10 +68,17 @@ p{
 
 .section-one {
     background-color: #1F2937;
+    justify-content: center;
 }
 .s1content {
     justify-content: flex-start;
     flex-direction: column;
+    flex-grow: 0;
+}
+
+.image{
+    display: flex;
+    flex-grow: 0;
 }
 /* random information */
 
