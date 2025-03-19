@@ -150,4 +150,12 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    gap: 10px;
+}
+
+.callsign{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    align-self: flex-end;
 }
