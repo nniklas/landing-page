@@ -61,16 +61,9 @@ p{
 .section-one {
     background-color: #1F2937;
 }
-.description {
+.s1content {
     justify-content: flex-start;
     flex-direction: column;
 }
-
-.s1content{
-    justify-content: space-between;
-    align-items: center;  
-    flex-direction: row; 
-}
-
 /* random information */
 
