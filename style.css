@@ -33,7 +33,7 @@ p{
 /* Global styles for flex elements */
 .container {
     display: flex;
-    padding: 10px 50px 10px 50px;
+    padding: 20px 100px 20px 100px;
 }
 
 /* Navigation bar */
