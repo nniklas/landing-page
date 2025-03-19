@@ -69,16 +69,17 @@ img {
 .section-one {
     background-color: #1F2937;
     justify-content: center;
+    gap: 30px;
 }
 .s1content {
     justify-content: flex-start;
     flex-direction: column;
-    flex-grow: 0;
+    flex: 1.5;
 }
 
 .image{
     display: flex;
-    flex-grow: 0;
+    flex: 1;
 }
 /* random information */
 
