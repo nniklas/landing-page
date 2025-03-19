@@ -95,5 +95,8 @@ button {
 .s1button {
     align-self: flex-start;
 }
-/* random information */
+/* random information section*/
 
+.section-two {
+    background-color: green;
+}
