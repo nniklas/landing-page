@@ -114,3 +114,18 @@ button {
 .images{
     display: flex;
 }
+
+.s2content{
+    border: solid;
+    border: 5px;
+    border: #3882F6;
+    padding: 5 px
+}
+.box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
+  }
