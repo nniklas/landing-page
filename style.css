@@ -33,6 +33,14 @@ p{
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -99,4 +107,10 @@ button {
 
 .section-two {
     background-color: green;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    display: flex;
 }
