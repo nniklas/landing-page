@@ -43,16 +43,12 @@ p{
 
 .navlist {
     align-items: center;
-    justify-content: space-between;   
     display: flex;
+    flex:1;
     gap: 15px;
 }
 
-.logo {
-    display: flex;
-}
-
-.moveright {
+.logo{
     margin-right: auto;
 }
 
