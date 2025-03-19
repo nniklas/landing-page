@@ -11,7 +11,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
+    
 }
 
 .nav {
@@ -29,4 +31,14 @@ a {
 .right-side-elements {
     display: flex;
     gap: 15px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.secondary-text {
+    color: #f9faf8;
+    font-size: 24px;
 }
