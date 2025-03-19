@@ -45,6 +45,9 @@ a {
 .section-one {
     flex: 0 1 1000px;
 }
+.description {
+    flex-direction: column;
+}
 
 
 
