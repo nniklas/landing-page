@@ -2,4 +2,4 @@
 
 ToP landing page exercise repository
 
-Credit forthe  image to @thechaffins via Unsplash.
+Credit for the  image to @thechaffins via Unsplash.
