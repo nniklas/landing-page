@@ -213,4 +213,11 @@ button {
 
 /* footer */
 .footer{
-justify-content: center;}
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+}
